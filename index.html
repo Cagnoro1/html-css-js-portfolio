@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christelle Agnoro's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">Christelle Agnoro</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href= "#about">About</a></li>
+            <li><a href= "#experience">Experience & Skills </a></li>
+            <li><a href= "#projects">Projects</a></li>
+            <li><a href= "#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Christelle Agnoro</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div>
+        <div class = "menu-links">
+            <li><a href= "#about" onclick="toggleMenu()" >About</a></li>
+            <li><a href= "#experience" onclick="toggleMenu()">Experience & Skills</a></li>
+            <li><a href= "#project" onclick="toggleMenu()" >Project</a></li>
+            <li><a href= "#contact"onclick="toggleMenu()">Contact</a></li>
+        <div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+    <img src="./assets/profile-pic.christy.png" alt="Christelle Agnoro profile picture" />
+</div>
+<div class="section__text">
+  <p class="section__text__p1">Hello, I'm</p>
+  <h1 class="title">Christelle Agnoro</h1>
+  <p class="section__text__p2">Data Analyst</p>
+  <div class="btn-container">
+    <button
+    class="btn btn-color-2"
+    onclick="window.open('./assets/Christelle Agnoro Résumé.pdf')"
+  >
+  View Resume
+</button>
+<button class="btn btn-color-1" onclick="location.href='./#contact'">
+    Contact Info
+</button>
+</div>
+<div id="socials-container">
+  <img
+    src="./assets/linkedin.png"
+    alt="My LinkedIn profile"
+    class="icon"
+    onclick="location.href='https://www.linkedin.com/in/christelle-agnoro/'"
+  />
+  <img
+  src="./assets/github.png"
+  alt="My Github profile"
+  class="icon"
+  onclick="location.href='https://github.com/Cagnoro1/'"
+/>
+<img
+  src="./assets/tableau 2.png"
+  alt="My Tableau Public profile"
+  class="icon"
+  onclick="location.href='https://public.tableau.com/app/profile/christelle.a6563/vizzes/'"
+/>
+</div>
+</div>
+</section>
+<section id="about">
+<p class="section__text__p1">Get To Know More</p>
+<h1 class="title">About Me</h1>
+<div class="section-container">
+  <div class="section__pic-container">
+
+    <img
+            src="./assets/Who am I .png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              
+              <h3>Experience</h3>
+              <p> - UI/UX Developert / Frontend <br />- IT Project Manager <br />- Data Analyst</p>
+              
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              /> 
+
+              <h3>Education</h3>
+              <p>Bachelors of Business Admistation in <br />Computer Information Systems (CIS)
+                <br /> from Howard University </p>
+            </div>
+
+
+            
+          </div>
+          <div class="text-container">
+            <p>
+                    As a Data Analyst with  experience in UI/UX design, IT project management, 
+                 I bring a unique perspective to data-driven decision-making. Proficient in SQL, 
+                 Python, and Tableau, I excel at dissecting complex datasets to craft insightful
+                 reports and intuitive dashboards. My knack for automation led to the optimization
+                 of operational systems, significantly reducing processing times and enhancing risk management.
+                 <br>
+                    I take pride in my contributions that have spurred efficiency improvements in customer retention,
+                 inventory, and account management. My analytical prowess, combined with my proficiency in Excel and 
+                 Tableau, has enabled companies to revitalize their sales strategies, resulting in tangible revenue growth.
+                 One of my standout achievements includes boosting platform utilization by 30% and elevating the user experience 
+                 for the company I was working for as a UI/UX Developer. 
+                 
+            </p>
+
+            <div>
+              
+            </div>
+        </div>
+
+
+        
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+  />
+</section>
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience & Skills</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Technical Skills</h2>
+        <div class="article-container">
+          <article>
+            <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p> MS SQL Server, MySQL</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java </h3>
+                  <p> Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python </h3>
+                  <p>Pandas, NumPy, SciPy, MatPlotLib </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>SQL Server, MySQL</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Scraping</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>VLookup, Conditional Formatting, Pivot Tables</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau </h3>
+                  <p>Data visualization</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Analytical Abilities</h3>
+                      <p>Problem-solving, Critical Thinking, Attention to Detail </p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Communication & Interpersonal Skills</h3>
+                      <p>Effective communication, Presentation abilities, Networking skills</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Organizational Skills:</h3>
+                      <p>Time management, Analytical and Statistical techniques </p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Adaptability & Creativity</h3>
+                      <p>Agile in adapting to new challenges, 
+                        fostering creativity, and developing innovative solutions. </p>
+                    </div>
+                  </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Collaboration & Influence:</h3>
+                        <p>Proven ability to collaborate and 
+                          influence cross-functionally within diverse team environments.</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Ethical & Cultural Awareness:</h3>
+                        <p>Ethical awareness, Natural curiosity </p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Business Acumen</h3>
+                        <p>Attuned to business context, understands analytical tools</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Multilingual Communication:</h3>
+                        <p>Fluent in English, French</p>
+                      </div>
+                    </article>
+                </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        
+          <br> <br> <br> <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> <br> <br> <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> <br> <br> <br> 
+          <br> 
+          <br> 
+          <br> <br> <br>
+        
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects </h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Sales Analysis.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h3 class="experience-sub-title project-title"> </h3>
+              <p> - SQL | Excel | Tableau </p> <p> - Identify key performance indicators</p> <p> - Provide actionable insights for revenue and profit enhancement</p>
+            
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Cagnoro1/Superstores-Sales-Analysis-and-Dashboard/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://public.tableau.com/app/profile/christelle.a6563/viz/SuperstoreSalesDashboard_17171055252140/SuperstoreSalesDashboard/'"
+                >
+                  Tableau
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Bike store Sale Analysis .png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"></h2>
+              <p> - SQL | Excel | Tableau </p> <p> - Comprehensive review of the Bike store’s sales </p> <p> - Provide recommendations to improve business outcomes</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Cagnoro1/Bike-Store-Dashboard/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://public.tableau.com/app/profile/christelle.a6563/viz/Bike_StoreDashboard_17162505174610/Dashboard1/'"
+                >
+                  Tableau
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Warehouse Data Analysis.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"></h2>
+              <p> - MySQL | Excel | Tableau </p> <p> - Implementation of efficient data management systems </p> <p> - Provide recommendations to improve business outcomes</p>
+              <div class="btn-container">
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Cagnoro1/Warehouse-Database-Structure-And-Organization/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Cagnoro1/System-Analysis-and-Digitalization-of-Warehouse/'"
+                >
+                System Analysis
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <br> <br> <br> <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> <br> <br> <br> 
+          <br> <br> <br> <br> 
+          <br> 
+          <br> 
+          <br> 
+          <br> 
+          
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:christelleagnoro@gmail.com">christelleagnoro@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/christelle-agnoro/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience & Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Christelle Agnoro. All Rights Reserved.</p>
+      </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
